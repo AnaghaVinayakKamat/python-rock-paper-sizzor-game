@@ -58,9 +58,8 @@ def play():
         print('Computer 2 chose:',comp2_pick)
         print("It's a tie")
 
-#configure buttons
+#buttons
 Label(root, text = 'Check the button to generate the game' , font='arial 15 bold', anchor= 'center', fg = 'yellow', bg='black').place(x = 65,y=40)
-
 game=Button(root, text='Start The Game', font='arial 30 bold', bg='black', fg='orange', command=play).place(x=90 , y=120)
 
 root.mainloop()
